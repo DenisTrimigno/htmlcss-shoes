@@ -5,4 +5,92 @@
 
 }
 
+/* GENERAL */
+
+html {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* MENU */
+.row {
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    background-color: transparent;
+    width: 100%;
+    height: 10vh;
+}
+
+.col {
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+    height: 100%;
+    background-color: transparent;
+}
+
+button {
+    font-family: 'Rubik Mono One', sans-serif;
+    border: none;
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+ 
+
+}
+
+/* CONTENUTO */
+
+h2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.box {
+    width: 100%;
+    height: 100vh;
+}
+
+.overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.red {
+    color: yellow;
+    background-color: red;
+    background-image: url(./img/01.png);
+}
+
+.green {
+    color: yellow;
+    background-color: green;
+    background-image: url(./img/02.png);
+}
+
+.yellow {
+    color: green;
+    background-color: yellow;
+    background-image: url(./img/03.png);
+}
+
+#shose{
+    background-position: center 50px;
+    background-size: 90vh;
+    background-repeat:no-repeat ;
+
+}
 
